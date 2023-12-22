@@ -25,7 +25,6 @@
   width: 100%;
   overflow: hidden;
   display: inherit;
-  box-shadow: 0px 0px 10px 4px $shadow;
   padding: 0;
   position: relative;
 
@@ -110,17 +109,6 @@
   }
 }
 
-.headerTitleContainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 12px;
-
-  .price-container {
-    margin-bottom: 0;
-  }
-}
-
 .add-to-cart {
   border: none;
   padding: 2px;
@@ -155,7 +143,7 @@
 
   & > div {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     font-size: 18px;
     font-weight: bold;
@@ -310,6 +298,8 @@
   font-size: 22px !important;
   font-weight: bold !important;
   color: $black;
+  text-align: center;
+  margin-bottom: 12px;
   line-clamp: 1;
   -webkit-line-clamp: 1;
   overflow: hidden;
@@ -317,8 +307,7 @@
   display: -webkit-box !important;
   box-orient: vertical;
   -webkit-box-orient: vertical;
-  text-align: left;
-  padding-right: 12px;
+  padding: 0 4px;
 }
 
 .is-new {
@@ -355,10 +344,10 @@
 
 .productImage {
   transition: all 0.2s ease-in-out;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
+
+  img {
+    width: 100%;
+  }
 
   &.no-image {
     display: flex;
@@ -383,4 +372,8 @@
   .MuiCardContent-root {
     padding: 8px;
   }
+}
+
+.MuiPaper-root.MuiCard-root {
+  border-radius: 0px !important;
 }

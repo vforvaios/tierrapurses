@@ -6,7 +6,6 @@ import CardMedia from '@mui/material/CardMedia';
 import IconButton from '@mui/material/IconButton';
 import { withStyles } from '@mui/styles';
 import formatMoney from 'library/formatMoney';
-import getPercentage from 'library/getPercentage';
 import { addToCart } from 'models/actions/cartActions';
 import { setGeneralLoading } from 'models/actions/catalogActions';
 import {
@@ -26,7 +25,6 @@ const Product = ({ classes, product, isWishlist }) => {
     imgHref,
     price,
     initialPrice,
-    code,
     stock,
     isNew,
   } = product;
@@ -54,26 +52,14 @@ const Product = ({ classes, product, isWishlist }) => {
           )}
         </CardMedia>
         <CardContent>
-          <div className="price-container no-margin">
-            <span className="discount absolute">
-              {getPercentage(initialPrice, price)}%
-            </span>
-          </div>
-          <div className="headerTitleContainer">
-            <div className="headerTitle">{productTitle}</div>
-            <div className="price-container">
-              <div>
-                <span>{formatMoney.format(initialPrice)}</span>
-                {formatMoney.format(price)}
-              </div>
+          <div className="headerTitle">{productTitle}</div>
+          <div className="price-container">
+            <div>
+              <span>{formatMoney.format(initialPrice)}</span>
+              {formatMoney.format(price)}
             </div>
           </div>
-          <p className="product-code">
-            <span>{code}</span>
-          </p>
-          <p className={`in-stock ${stock === 0 ? 'not' : ''}`}>
-            <span>{stock > 0 ? 'Διαθέσιμο' : 'Μη διαθέσιμο'}</span>
-          </p>
+
           {isNew ? <span className="is-new mb0">ΝΕΟ</span> : null}
         </CardContent>
         <CardActions disableSpacing className="card-actions">
