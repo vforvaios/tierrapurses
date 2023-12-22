@@ -1,0 +1,67 @@
+.catalog-container {
+  flex-direction: column;
+}
+
+.products-grid {
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  & > li {
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+    margin-bottom: 20px;
+
+    & > div {
+      width: 100%;
+    }
+  }
+}
+
+.sorting-section {
+  padding: 0 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sorting-container {
+  min-width: 200px;
+
+  & .MuiFormControl-root {
+    display: flex;
+  }
+
+  .MuiInputLabel-formControl {
+    left: 0px !important;
+    top: 0px !important;
+  }
+}
+
+.catalog-pagination {
+  margin-right: 0;
+  .MuiPagination-ul {
+    display: flex;
+  }
+}
+
+.products {
+  margin-bottom: 20px;
+
+  h3.no-products {
+    text-align: center;
+  }
+}
+
+.products-section {
+  flex-grow: 1;
+  width: 100%;
+}

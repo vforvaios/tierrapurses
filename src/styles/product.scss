@@ -1,0 +1,386 @@
+.card-actions {
+  align-items: center !important;
+  justify-content: space-between;
+  cursor: default;
+  padding-top: 0 !important;
+
+  &.loading-actions {
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.3);
+      z-index: 1;
+      pointer-events: none;
+    }
+  }
+}
+
+.product {
+  width: 100%;
+  overflow: hidden;
+  display: inherit;
+  box-shadow: 0px 0px 10px 4px $shadow;
+  padding: 0;
+  position: relative;
+
+  &.navlink {
+    text-decoration: none;
+
+    p {
+      min-height: 40px;
+      -webkit-line-clamp: 2; /* number of lines to show */
+      line-clamp: 2;
+      display: -webkit-box;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-box-orient: vertical;
+      box-orient: vertical;
+      margin-bottom: 10px;
+      text-align: left;
+      color: $color-6 !important;
+
+      &.in-stock {
+        margin: 8px 0 0;
+        min-height: unset;
+        text-align: left;
+        padding: 0;
+        -webkit-box-orient: unset;
+        box-orient: unset;
+        -webkit-line-clamp: unset;
+        line-clamp: unset;
+        overflow: unset;
+        display: block;
+
+        span {
+          position: relative;
+          display: inline-block;
+          padding: 0 0 0 10px;
+
+          &:before {
+            content: '';
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            left: 0;
+            top: 50%;
+            margin-top: -3px;
+            background: $success;
+            border-radius: 20px;
+          }
+        }
+        &.not span:before {
+          background: $alert;
+        }
+      }
+
+      &.product-code {
+        font-size: 11px;
+        font-weight: 300;
+        display: block;
+        min-height: unset;
+        line-clamp: unset;
+        overflow: auto;
+        color: $color-6 !important;
+        margin-bottom: 0;
+        padding-right: 4px;
+      }
+    }
+
+    &:hover {
+      .MuiCardMedia-root > div {
+        transform: scale(1.4);
+      }
+    }
+  }
+}
+
+.product-action {
+  border-radius: 50% !important;
+  border: 1px solid #cecece !important;
+
+  &.MuiIconButton-root {
+    padding: 6px;
+    color: $color-1;
+  }
+}
+
+.headerTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+
+  .price-container {
+    margin-bottom: 0;
+  }
+}
+
+.add-to-cart {
+  border: none;
+  padding: 2px;
+  background: none;
+  color: $color-1;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.price-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+
+  &.no-margin {
+    margin-bottom: 0;
+  }
+
+  &.for-product-page {
+    & > div {
+      justify-content: flex-start;
+      width: auto;
+    }
+  }
+
+  & > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: $color-1;
+    width: 100%;
+
+    & > span {
+      margin-right: 10px;
+      font-size: 10px;
+      text-decoration: line-through;
+      color: $color-2;
+    }
+  }
+
+  .discount {
+    color: $alert;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 4px;
+    background: $shadow;
+    margin-left: 10px;
+
+    &.absolute {
+      position: absolute;
+      top: 6px;
+      left: 6px;
+      padding: 3px;
+      z-index: 1;
+      background: $success;
+      color: $white;
+      margin-left: 0;
+      font-size: 12px;
+      box-shadow: 0px 0px 6px 0px $black;
+    }
+  }
+}
+
+.productPage {
+  .slick-track {
+    margin-left: 0;
+  }
+
+  .MuiGrid-container .price-container {
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .MuiGrid-container .product-code {
+    margin-bottom: 20px;
+    color: $color-6;
+    font-weight: 300;
+  }
+
+  .product-title {
+    .headerTitle {
+      text-align: left;
+      font-size: 30px !important;
+      margin: 0;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.productPage .products-grid {
+  display: block;
+
+  .slick-list {
+    margin: 0 -10px;
+  }
+  .slick-slide > div {
+    padding: 0 10px;
+  }
+}
+
+.mainProductRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.mainProductRightSection {
+  .product-description {
+    margin-bottom: 16px;
+  }
+
+  .in-stock {
+    margin: 0 0 12px;
+    text-align: left;
+    padding: 0;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+
+    span {
+      position: relative;
+      display: inline-block;
+      padding: 0 0 0 10px;
+
+      &:before {
+        content: '';
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        left: 0;
+        top: 50%;
+        margin-top: -3px;
+        background: $success;
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+.mainProductPhotosContainer {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  position: relative;
+  overflow: hidden;
+
+  .price-container {
+    margin: 0 !important;
+  }
+
+  .is-new {
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  + div {
+    padding-left: 0;
+  }
+}
+
+.product-page-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+
+  .add-to-cart {
+    width: auto;
+  }
+}
+
+.headerTitle {
+  font-size: 22px !important;
+  font-weight: bold !important;
+  color: $black;
+  line-clamp: 1;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box !important;
+  box-orient: vertical;
+  -webkit-box-orient: vertical;
+  text-align: left;
+  padding-right: 12px;
+}
+
+.is-new {
+  font-weight: 700;
+  font-size: 16px;
+  color: $white;
+  background-color: $color-1;
+  position: absolute;
+  z-index: 1;
+  padding: 6px;
+  transform: rotate(45deg);
+  transform-origin: center center;
+  width: 200px;
+  transform-origin: center center;
+  width: 200px;
+  right: -80px;
+  top: 5px;
+  box-shadow: 0px 0px 6px 0px $black;
+}
+
+.subHeader {
+  font-size: 12px !important;
+  color: $color-3 !important;
+  text-align: left;
+  margin-bottom: 12px;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  line-clamp: 1;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+}
+
+.productImage {
+  transition: all 0.2s ease-in-out;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+
+  &.no-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 68px;
+  }
+}
+
+.product-description {
+  margin-bottom: 10px;
+  text-align: left;
+  color: $color-6 !important;
+}
+
+.navlink.product {
+  .subHeader {
+    height: 14px;
+  }
+
+  .MuiCardContent-root {
+    padding: 8px;
+  }
+}

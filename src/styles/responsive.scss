@@ -1,0 +1,200 @@
+// GENERAL
+.hidden {
+  display: none;
+}
+
+.wrapper {
+  padding: 0 20px;
+}
+
+// CATALOG
+.filters {
+  flex-basis: 33.33%;
+  min-width: 300px;
+  margin-right: 20px;
+  max-width: 360px;
+}
+
+.filters-container {
+  position: static;
+  transform: none !important;
+  box-shadow: none;
+  max-width: unset;
+  padding: 0;
+}
+
+.catalog-container {
+  flex-direction: row;
+}
+
+.sorting-section {
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+// PRODUCT PAGE
+.mainProductPhotosContainer {
+  + div {
+    padding-left: 16px;
+  }
+}
+
+// CATEGORIES
+.categories-list {
+  li {
+    flex-basis: 33.33%;
+    padding: 0 10px;
+  }
+}
+
+// TABLE
+.table {
+  display: table;
+  tr {
+    display: table-row;
+  }
+  thead {
+    display: table-header-group;
+    th {
+      display: table-cell;
+      font-weight: bold;
+      font-size: 18px;
+      text-align: center;
+      border-color: $shadow;
+
+      &:first-child {
+        text-align: left;
+      }
+
+      &:last-child {
+        text-align: right;
+      }
+    }
+  }
+
+  tbody {
+    display: table-row-group;
+
+    td {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+
+      &:first-child {
+        padding-right: 0;
+      }
+
+      &:last-child {
+        position: static;
+      }
+    }
+  }
+
+  .hidden {
+    text-align: left;
+  }
+}
+
+.table tbody .order-details .cart-content .table tbody td:last-child {
+  text-align: right;
+}
+
+.table tbody .order-details td:last-child {
+  padding-right: 0;
+}
+
+// CART
+.cart-description {
+  align-items: center;
+}
+
+//
+.products-grid > li {
+  flex-basis: 33%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+// CHECKOUT
+.checkout-stepper-container {
+  ul {
+    flex-direction: row;
+  }
+}
+
+.step3 .table tbody td:last-child {
+  &.not-updateable {
+    text-align: right;
+  }
+}
+
+.billing-inputs {
+  max-width: 50%;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  & .MuiFormControl-root {
+    flex-basis: 100%;
+  }
+}
+
+.flex-billing-shipping {
+  flex-wrap: nowrap;
+}
+
+.payment-shipping-container {
+  flex-direction: row;
+}
+
+.shipping-methods {
+  padding-left: 16px;
+}
+
+// ACTIONS
+.actions {
+  flex-direction: row;
+}
+
+// FOOTER
+.footer-columns {
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+.footer-newsletter {
+  padding-right: 20px;
+  flex-basis: 40%;
+  width: auto;
+}
+
+.footer-row {
+  flex-direction: row;
+
+  &:last-child {
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.copyright {
+  margin-bottom: 0;
+}
+
+.footer-social-icons {
+  padding: 0;
+}
+
+.page-title {
+  font-size: 28px;
+}
+
+// PAGINATION
+.pagination {
+  margin: 0 auto;
+}
+
+.catalog-pagination {
+  margin-right: 20px;
+}

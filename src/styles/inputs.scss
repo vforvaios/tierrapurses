@@ -1,0 +1,22 @@
+.MuiFormControl-root.error .MuiInput-root {
+  border-bottom: 2px solid red;
+
+  &:before {
+    border-bottom: 0;
+  }
+}
+
+.MuiInputLabel-formControl {
+  left: -6px !important;
+  top: 6px !important;
+
+  &.select-label {
+    left: 8px !important;
+  }
+}
+
+.MuiRadio-root {
+  svg {
+    color: $color-1;
+  }
+}

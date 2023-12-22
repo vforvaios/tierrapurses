@@ -1,0 +1,29 @@
+.alert {
+  position: fixed;
+  padding: 10px;
+  border-radius: 10px;
+  top: 10px;
+  right: 10px;
+  transition: all 0.2s ease-in-out;
+  transition-delay: 0.1s;
+  transform: translate(200px, 0);
+  color: $white;
+  box-shadow: 0px 0px 6px 0px $color-7;
+  z-index: 10000;
+
+  &.show {
+    transform: translate(0, 0);
+  }
+
+  &.success {
+    background-color: $success;
+  }
+
+  &.error {
+    background-color: $alert;
+  }
+
+  &.info {
+    background-color: $warning;
+  }
+}

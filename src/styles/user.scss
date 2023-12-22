@@ -1,0 +1,82 @@
+.login-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+.error-span {
+  font-size: 12px;
+  color: $alert;
+  margin-top: 8px;
+}
+
+.user-menu {
+  .MuiMenu-list {
+    padding: 0;
+
+    li {
+      color: $color-1;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1;
+      padding: 0;
+      display: block;
+      width: 100%;
+
+      a {
+        padding: 16px;
+        display: block;
+        text-align: left;
+      }
+
+      &:first-child {
+        padding: 16px;
+        font-size: 16px;
+        color: $black;
+        background: $shadow;
+        text-align: center;
+        cursor: default;
+
+        &:hover {
+          background: $shadow;
+        }
+      }
+    }
+  }
+}
+
+.chip {
+  color: $white !important;
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+
+  &.chip1 {
+    background: $registered;
+  }
+
+  &.chip2 {
+    background: $sent;
+  }
+
+  &.chip3 {
+    background: $completed;
+  }
+
+  &.chip4 {
+    background: $alert;
+  }
+}
+
+.minor-link {
+  display: inline-block;
+  vertical-align: middle;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}

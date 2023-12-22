@@ -1,0 +1,140 @@
+.cart-description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  img {
+    margin-right: 10px;
+  }
+}
+
+.mini-cart {
+  text-decoration: none;
+  position: relative;
+  margin-left: 20px;
+  line-height: 0;
+
+  span {
+    position: absolute;
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: $alert;
+    color: $white;
+    text-align: center;
+    line-height: 16px;
+    top: 0;
+    right: -9px;
+    border: 1px solid $white;
+    letter-spacing: -1px;
+  }
+
+  svg {
+    fill: $white;
+    font-size: 32px;
+  }
+}
+
+.user-icon,
+.usermenu-container {
+  i {
+    font-size: 28px;
+    color: $white;
+    margin-left: 16px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      color: $color-1;
+    }
+  }
+}
+
+.totalPrice {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.usermenu-container {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    border-radius: 20px;
+    background: $success;
+    top: 0;
+    right: 0;
+  }
+}
+
+.removeCancel {
+  font-size: 20px;
+  color: $alert;
+  cursor: pointer;
+  margin-left: 12px;
+}
+
+.cart-totals-container {
+  border: 1px solid $shadow;
+}
+
+.cart-totals-row {
+  padding: 12px;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 16px;
+
+  &.bold {
+    font-weight: 700;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+    font-size: 22px;
+  }
+}
+
+.cart-totals-name {
+  padding-right: 12px;
+}
+
+.cart-totals-value {
+  font-weight: 700;
+}
+
+.cart-item-initial-price {
+  margin-right: 10px;
+  font-size: 14px;
+  text-decoration: line-through;
+  color: $color-2;
+}
+
+.cart-totals-row-title {
+  background: $purple;
+  margin-bottom: 0;
+  color: $black;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.icon-shopping-basket {
+  font-size: 26px;
+  color: $white;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    color: $color-1;
+  }
+}
+
+.cart-item-image {
+  max-width: 100px;
+  max-height: 100px;
+}

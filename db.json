@@ -1,0 +1,2498 @@
+{
+  "home": {
+    "tabsOffers": [
+      {
+        "id": 3,
+        "title": "ΚΑΛΟΚΑΙΡΙ",
+        "isActive": 1,
+        "products": [
+          {
+            "productId": 1,
+            "productTitle": "Title 1",
+            "stock": 99,
+            "productDescription": "Descripption 1",
+            "initialPrice": 30,
+            "price": 20,
+            "imgHref": "adminbg.jpg",
+            "productSubHeader": "Sub Header 1",
+            "code": "1234re",
+            "isNew": 1
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "ΟΜΟΡΦΙΑ",
+        "isActive": 1,
+        "products": [
+          {
+            "productId": 1,
+            "productTitle": "Title 1",
+            "stock": 99,
+            "productDescription": "Descripption 1",
+            "initialPrice": 30,
+            "price": 20,
+            "imgHref": "adminbg.jpg",
+            "productSubHeader": "Sub Header 1",
+            "code": "1234re",
+            "isNew": 1
+          },
+          {
+            "productId": 2,
+            "productTitle": "Title 2",
+            "stock": 40,
+            "productDescription": "Description 2",
+            "initialPrice": 100,
+            "price": 80,
+            "imgHref": "adminbg.jpg",
+            "productSubHeader": "Sub Header 2",
+            "code": "fsd84r23j",
+            "isNew": 0
+          },
+          {
+            "productId": 3,
+            "productTitle": "Title 3",
+            "stock": 160,
+            "productDescription": "Descripption 3",
+            "initialPrice": 50,
+            "price": 40,
+            "imgHref": "adminbg.jpg",
+            "productSubHeader": "Sub Header 3",
+            "code": "fsd8fws2",
+            "isNew": 1
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": 2,
+        "title": "ΑΞΙΖΕΙ ΝΑ ΔΕΙΤΕ...",
+        "isActive": 1,
+        "products": [
+          {
+            "productId": 3,
+            "productTitle": "Title 3",
+            "stock": 160,
+            "productDescription": "Descripption 3",
+            "initialPrice": 50,
+            "price": 40,
+            "imgHref": "adminbg.jpg",
+            "productSubHeader": "Sub Header 3",
+            "code": "fsd8fws2",
+            "isNew": 1
+          },
+          {
+            "productId": 15,
+            "productTitle": "test title",
+            "stock": 100,
+            "productDescription": "test small description",
+            "initialPrice": 300,
+            "price": 100,
+            "imgHref": "adminbg.jpg",
+            "productSubHeader": "test subheader",
+            "code": "test code",
+            "isNew": 0
+          },
+          {
+            "productId": 2,
+            "productTitle": "Title 2",
+            "stock": 40,
+            "productDescription": "Description 2",
+            "initialPrice": 100,
+            "price": 80,
+            "imgHref": "adminbg.jpg",
+            "productSubHeader": "Sub Header 2",
+            "code": "fsd84r23j",
+            "isNew": 0
+          }
+        ]
+      }
+    ],
+    "banners": [
+      {
+        "id": 1,
+        "title": "Αγόρασε τώρα το frezy derm",
+        "product_id": 3,
+        "imgHref": "adminbg.jpg",
+        "productId": 3,
+        "isNew": 1
+      },
+      {
+        "id": 2,
+        "title": "fasdfasdafd",
+        "product_id": 2,
+        "imgHref": "adminbg.jpg",
+        "productId": 2,
+        "isNew": 0
+      }
+    ]
+  },
+  "staticcontentkeywordshome": { "keywords": "Αρχική σελίδα Shoppy" },
+  "logo": {
+    "data": {
+      "name": "computer-img.png"
+    },
+    "preview": "undefined/images/computer-img.png"
+  },
+  "staticcontentactive": {
+    "data": [
+      {
+        "id": 1,
+        "title": "Οροι Χρήσης",
+        "description": "<p>fasdasdfasdfasdfasdasdfasd2222222</p>"
+      },
+      {
+        "id": 2,
+        "title": "Τρόποι Πληρωμής",
+        "description": "<p>perigrafi</p>"
+      },
+      {
+        "id": 3,
+        "title": "Τρόποι Αποστολής",
+        "description": "<p>2test perigrafi22222</p>"
+      }
+    ]
+  },
+  "menu": {
+    "menu": [
+      {
+        "id": 1,
+        "name": "ΓΥΝΑΙΚΑ",
+        "subCategories": [
+          {
+            "id": 1,
+            "name": "ΑΝΤΗΛΙΑΚΗ ΠΡΟΣΤΑΣΙΑ",
+            "category_id": 1
+          },
+          {
+            "id": 2,
+            "name": "ΠΡΟΣΩΠΟ",
+            "category_id": 1
+          },
+          {
+            "id": 3,
+            "name": "ΡΥΤΙΔΕΣ",
+            "category_id": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "ΑΝΤΡΑΣ",
+        "subCategories": [
+          {
+            "id": 3,
+            "name": "ΡΥΤΙΔΕΣ",
+            "category_id": 2
+          },
+          {
+            "id": 4,
+            "name": "ΣΤΟΜΑΤΙΚΗ ΠΡΟΣΤΑΣΙΑ",
+            "category_id": 2
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "ΠΑΙΔΙ",
+        "subCategories": []
+      },
+      {
+        "id": 4,
+        "name": "ΧΕΙΜΩΝΑΣ",
+        "subCategories": []
+      },
+      {
+        "id": 5,
+        "name": "ΚΑΛΟΚΑΙΡΙ",
+        "subCategories": []
+      }
+    ],
+    "staticPagesInMenu": [
+      {
+        "id": 2,
+        "title": "Τρόποι Πληρωμής",
+        "description": "<p>perigrafi</p>",
+        "isActive": 1,
+        "isMenu": 1
+      },
+      {
+        "id": 3,
+        "title": "Τρόποι Αποστολής",
+        "description": "<p>2test perigrafi22222</p>",
+        "isActive": 1,
+        "isMenu": 1
+      }
+    ]
+  },
+  "products": {
+    "productId": 3,
+    "productTitle": "Title 3",
+    "productDescription": "Descripption 3",
+    "productSubHeader": "Sub Header 3",
+    "stock": 160,
+    "imgHref": "adminbg.jpg",
+    "price": 40,
+    "initialPrice": 50,
+    "code": "fsd8fws2",
+    "related_products": "1,2",
+    "isActive": 1,
+    "productLargeDescription": "<p>fasdfasdfasdfasdfdas</p>",
+    "isNew": 1
+  },
+  "productsrelated": [
+    {
+      "productId": 1,
+      "productTitle": "Title 1",
+      "productDescription": "Descripption 1",
+      "productSubHeader": "Sub Header 1",
+      "stock": 99,
+      "imgHref": "adminbg.jpg",
+      "price": 20,
+      "initialPrice": 30,
+      "code": "1234re",
+      "related_products": "2,3",
+      "isActive": 1,
+      "productLargeDescription": "<p>vaios</p>",
+      "isNew": 1
+    },
+    {
+      "productId": 2,
+      "productTitle": "Title 2",
+      "productDescription": "Description 2",
+      "productSubHeader": "Sub Header 2",
+      "stock": 40,
+      "imgHref": "adminbg.jpg",
+      "price": 80,
+      "initialPrice": 100,
+      "code": "fsd84r23j",
+      "related_products": "1,3,4,5",
+      "isActive": 1,
+      "productLargeDescription": "",
+      "isNew": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "ΓΥΝΑΙΚΑ",
+      "description": "fasdfasdasdfads2",
+      "isActive": 1
+    },
+    {
+      "id": 2,
+      "name": "ΑΝΤΡΑΣ",
+      "description": "kgjgkjgkjgkjgh",
+      "isActive": 1
+    },
+    {
+      "id": 3,
+      "name": "ΠΑΙΔΙ",
+      "description": "fasdfasdfadsfds",
+      "isActive": 1
+    },
+    {
+      "id": 4,
+      "name": "ΧΕΙΜΩΝΑΣ",
+      "description": null,
+      "isActive": 1
+    },
+    {
+      "id": 5,
+      "name": "ΚΑΛΟΚΑΙΡΙ",
+      "description": null,
+      "isActive": 1
+    }
+  ],
+  "subcategories": [
+    {
+      "id": 1,
+      "name": "ΑΝΤΗΛΙΑΚΗ ΠΡΟΣΤΑΣΙΑ",
+      "description": null,
+      "isActive": 1
+    },
+    {
+      "id": 2,
+      "name": "ΠΡΟΣΩΠΟ",
+      "description": "",
+      "isActive": 1
+    },
+    {
+      "id": 3,
+      "name": "ΡΥΤΙΔΕΣ",
+      "description": null,
+      "isActive": 1
+    },
+    {
+      "id": 4,
+      "name": "ΣΤΟΜΑΤΙΚΗ ΠΡΟΣΤΑΣΙΑ",
+      "description": null,
+      "isActive": 1
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "APIVITA",
+      "description": null,
+      "isActive": 1
+    },
+    {
+      "id": 2,
+      "name": "KORRES",
+      "description": null,
+      "isActive": 1
+    },
+    {
+      "id": 3,
+      "name": "FREZY DERM",
+      "description": null,
+      "isActive": 1
+    },
+    {
+      "id": 4,
+      "name": "HELIOS",
+      "description": null,
+      "isActive": 1
+    },
+    {
+      "id": 5,
+      "name": "PHARMACEPT",
+      "description": null,
+      "isActive": 1
+    }
+  ],
+  "prices": { "minprice": 2, "maxprice": 100 },
+  "catalog": {
+    "results": [
+      {
+        "productId": 10,
+        "productTitle": "test title2",
+        "productDescription": "test small descripoppppppppption",
+        "productSubHeader": "test subheader",
+        "stock": 100,
+        "price": 6,
+        "initialPrice": 11,
+        "code": "test code2",
+        "isActive": 1,
+        "imgHref": "adminbg.jpg",
+        "isNew": 0
+      },
+      {
+        "productId": 4,
+        "productTitle": "Title 4",
+        "productDescription": "Description 4",
+        "productSubHeader": "Sub Header 4",
+        "stock": 90,
+        "price": 50,
+        "initialPrice": 60,
+        "code": "6hf435g",
+        "isActive": 1,
+        "imgHref": "adminbg.jpg",
+        "isNew": 0
+      }
+    ],
+    "total": 2
+  },
+  "countries": {
+    "countries": [
+      {
+        "id": 2,
+        "country_code": "AF",
+        "country_name": "Afghanistan",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 3,
+        "country_code": "AL",
+        "country_name": "Albania",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 4,
+        "country_code": "DZ",
+        "country_name": "Algeria",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 5,
+        "country_code": "AS",
+        "country_name": "American Samoa",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 6,
+        "country_code": "AD",
+        "country_name": "Andorra",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 7,
+        "country_code": "AO",
+        "country_name": "Angola",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 8,
+        "country_code": "AI",
+        "country_name": "Anguilla",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 9,
+        "country_code": "AQ",
+        "country_name": "Antarctica",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 10,
+        "country_code": "AG",
+        "country_name": "Antigua and Barbuda",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 11,
+        "country_code": "AR",
+        "country_name": "Argentina",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 12,
+        "country_code": "AM",
+        "country_name": "Armenia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 13,
+        "country_code": "AW",
+        "country_name": "Aruba",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 14,
+        "country_code": "AU",
+        "country_name": "Australia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 15,
+        "country_code": "AT",
+        "country_name": "Austria",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 16,
+        "country_code": "AZ",
+        "country_name": "Azerbaijan",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 17,
+        "country_code": "BS",
+        "country_name": "Bahamas",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 18,
+        "country_code": "BH",
+        "country_name": "Bahrain",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 19,
+        "country_code": "BD",
+        "country_name": "Bangladesh",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 20,
+        "country_code": "BB",
+        "country_name": "Barbados",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 21,
+        "country_code": "BY",
+        "country_name": "Belarus",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 22,
+        "country_code": "BE",
+        "country_name": "Belgium",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 23,
+        "country_code": "BZ",
+        "country_name": "Belize",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 24,
+        "country_code": "BJ",
+        "country_name": "Benin",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 25,
+        "country_code": "BM",
+        "country_name": "Bermuda",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 26,
+        "country_code": "BT",
+        "country_name": "Bhutan",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 27,
+        "country_code": "BA",
+        "country_name": "Bosnia and Herzegovina",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 28,
+        "country_code": "BW",
+        "country_name": "Botswana",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 29,
+        "country_code": "BV",
+        "country_name": "Bouvet Island",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 30,
+        "country_code": "BR",
+        "country_name": "Brazil",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 31,
+        "country_code": "IO",
+        "country_name": "British Indian Ocean Territory",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 32,
+        "country_code": "BN",
+        "country_name": "Brunei Darussalam",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 33,
+        "country_code": "BG",
+        "country_name": "Bulgaria",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 34,
+        "country_code": "BF",
+        "country_name": "Burkina Faso",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 35,
+        "country_code": "BI",
+        "country_name": "Burundi",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 36,
+        "country_code": "KH",
+        "country_name": "Cambodia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 37,
+        "country_code": "CM",
+        "country_name": "Cameroon",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 38,
+        "country_code": "CA",
+        "country_name": "Canada",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 39,
+        "country_code": "CV",
+        "country_name": "Cape Verde",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 40,
+        "country_code": "KY",
+        "country_name": "Cayman Islands",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 41,
+        "country_code": "CF",
+        "country_name": "Central African Republic",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 42,
+        "country_code": "TD",
+        "country_name": "Chad",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 43,
+        "country_code": "CL",
+        "country_name": "Chile",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 44,
+        "country_code": "CN",
+        "country_name": "China",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 45,
+        "country_code": "CX",
+        "country_name": "Christmas Island",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 46,
+        "country_code": "CC",
+        "country_name": "Cocos (Keeling) Islands",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 47,
+        "country_code": "CO",
+        "country_name": "Colombia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 48,
+        "country_code": "KM",
+        "country_name": "Comoros",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 49,
+        "country_code": "CG",
+        "country_name": "Congo",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 50,
+        "country_code": "CK",
+        "country_name": "Cook Islands",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 51,
+        "country_code": "CR",
+        "country_name": "Costa Rica",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 52,
+        "country_code": "HR",
+        "country_name": "Croatia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 53,
+        "country_code": "CU",
+        "country_name": "Cuba",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 54,
+        "country_code": "CY",
+        "country_name": "Cyprus",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 55,
+        "country_code": "CZ",
+        "country_name": "Czech Republic",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 56,
+        "country_code": "DK",
+        "country_name": "Denmark",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 57,
+        "country_code": "DJ",
+        "country_name": "Djibouti",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 58,
+        "country_code": "DM",
+        "country_name": "Dominica",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 59,
+        "country_code": "DO",
+        "country_name": "Dominican Republic",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 60,
+        "country_code": "EC",
+        "country_name": "Ecuador",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 61,
+        "country_code": "EG",
+        "country_name": "Egypt",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 62,
+        "country_code": "SV",
+        "country_name": "El Salvador",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 63,
+        "country_code": "GQ",
+        "country_name": "Equatorial Guinea",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 64,
+        "country_code": "ER",
+        "country_name": "Eritrea",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 65,
+        "country_code": "EE",
+        "country_name": "Estonia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 66,
+        "country_code": "ET",
+        "country_name": "Ethiopia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 67,
+        "country_code": "FK",
+        "country_name": "Falkland Islands (Malvinas)",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 68,
+        "country_code": "FO",
+        "country_name": "Faroe Islands",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 69,
+        "country_code": "FJ",
+        "country_name": "Fiji",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 70,
+        "country_code": "FI",
+        "country_name": "Finland",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 71,
+        "country_code": "FR",
+        "country_name": "France",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 72,
+        "country_code": "GF",
+        "country_name": "French Guiana",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 73,
+        "country_code": "PF",
+        "country_name": "French Polynesia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 74,
+        "country_code": "TF",
+        "country_name": "French Southern Territories",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 75,
+        "country_code": "GA",
+        "country_name": "Gabon",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 76,
+        "country_code": "GM",
+        "country_name": "Gambia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 77,
+        "country_code": "GE",
+        "country_name": "Georgia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 78,
+        "country_code": "DE",
+        "country_name": "Germany",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 79,
+        "country_code": "GH",
+        "country_name": "Ghana",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 80,
+        "country_code": "GI",
+        "country_name": "Gibraltar",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 81,
+        "country_code": "GR",
+        "country_name": "Greece",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 82,
+        "country_code": "GL",
+        "country_name": "Greenland",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 83,
+        "country_code": "GD",
+        "country_name": "Grenada",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 84,
+        "country_code": "GP",
+        "country_name": "Guadeloupe",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 85,
+        "country_code": "GU",
+        "country_name": "Guam",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 86,
+        "country_code": "GT",
+        "country_name": "Guatemala",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 87,
+        "country_code": "GG",
+        "country_name": "Guernsey",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 88,
+        "country_code": "GN",
+        "country_name": "Guinea",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 89,
+        "country_code": "GW",
+        "country_name": "Guinea-Bissau",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 90,
+        "country_code": "GY",
+        "country_name": "Guyana",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 91,
+        "country_code": "HT",
+        "country_name": "Haiti",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 92,
+        "country_code": "HM",
+        "country_name": "Heard Island and McDonald Islands",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 93,
+        "country_code": "VA",
+        "country_name": "Holy See (Vatican City State)",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 94,
+        "country_code": "HN",
+        "country_name": "Honduras",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 95,
+        "country_code": "HK",
+        "country_name": "Hong Kong",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 96,
+        "country_code": "HU",
+        "country_name": "Hungary",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 97,
+        "country_code": "IS",
+        "country_name": "Iceland",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 98,
+        "country_code": "IN",
+        "country_name": "India",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 99,
+        "country_code": "ID",
+        "country_name": "Indonesia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 100,
+        "country_code": "IQ",
+        "country_name": "Iraq",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 101,
+        "country_code": "IE",
+        "country_name": "Ireland",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 102,
+        "country_code": "IM",
+        "country_name": "Isle of Man",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 103,
+        "country_code": "IL",
+        "country_name": "Israel",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 104,
+        "country_code": "IT",
+        "country_name": "Italy",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 105,
+        "country_code": "JM",
+        "country_name": "Jamaica",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 106,
+        "country_code": "JP",
+        "country_name": "Japan",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 107,
+        "country_code": "JE",
+        "country_name": "Jersey",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 108,
+        "country_code": "JO",
+        "country_name": "Jordan",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 109,
+        "country_code": "KZ",
+        "country_name": "Kazakhstan",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 110,
+        "country_code": "KE",
+        "country_name": "Kenya",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 111,
+        "country_code": "KI",
+        "country_name": "Kiribati",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 112,
+        "country_code": "KW",
+        "country_name": "Kuwait",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 113,
+        "country_code": "KG",
+        "country_name": "Kyrgyzstan",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 114,
+        "country_code": "LA",
+        "country_name": "Lao Peoples Democratic Republic",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 115,
+        "country_code": "LV",
+        "country_name": "Latvia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 116,
+        "country_code": "LB",
+        "country_name": "Lebanon",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 117,
+        "country_code": "LS",
+        "country_name": "Lesotho",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 118,
+        "country_code": "LR",
+        "country_name": "Liberia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 119,
+        "country_code": "LY",
+        "country_name": "Libya",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 120,
+        "country_code": "LI",
+        "country_name": "Liechtenstein",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 121,
+        "country_code": "LT",
+        "country_name": "Lithuania",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 122,
+        "country_code": "LU",
+        "country_name": "Luxembourg",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 123,
+        "country_code": "MO",
+        "country_name": "Macao",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 124,
+        "country_code": "MG",
+        "country_name": "Madagascar",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 125,
+        "country_code": "MW",
+        "country_name": "Malawi",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 126,
+        "country_code": "MY",
+        "country_name": "Malaysia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 127,
+        "country_code": "MV",
+        "country_name": "Maldives",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 128,
+        "country_code": "ML",
+        "country_name": "Mali",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 129,
+        "country_code": "MT",
+        "country_name": "Malta",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 130,
+        "country_code": "MH",
+        "country_name": "Marshall Islands",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 131,
+        "country_code": "MQ",
+        "country_name": "Martinique",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 132,
+        "country_code": "MR",
+        "country_name": "Mauritania",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 133,
+        "country_code": "MU",
+        "country_name": "Mauritius",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 134,
+        "country_code": "YT",
+        "country_name": "Mayotte",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 135,
+        "country_code": "MX",
+        "country_name": "Mexico",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 136,
+        "country_code": "MC",
+        "country_name": "Monaco",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 137,
+        "country_code": "MN",
+        "country_name": "Mongolia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 138,
+        "country_code": "ME",
+        "country_name": "Montenegro",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 139,
+        "country_code": "MS",
+        "country_name": "Montserrat",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 140,
+        "country_code": "MA",
+        "country_name": "Morocco",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 141,
+        "country_code": "MZ",
+        "country_name": "Mozambique",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 142,
+        "country_code": "MM",
+        "country_name": "Myanmar",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 143,
+        "country_code": "NA",
+        "country_name": "Namibia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 144,
+        "country_code": "NR",
+        "country_name": "Nauru",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 145,
+        "country_code": "NP",
+        "country_name": "Nepal",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 146,
+        "country_code": "NL",
+        "country_name": "Netherlands",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 147,
+        "country_code": "NC",
+        "country_name": "New Caledonia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 148,
+        "country_code": "NZ",
+        "country_name": "New Zealand",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 149,
+        "country_code": "NI",
+        "country_name": "Nicaragua",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 150,
+        "country_code": "NE",
+        "country_name": "Niger",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 151,
+        "country_code": "NG",
+        "country_name": "Nigeria",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 152,
+        "country_code": "NU",
+        "country_name": "Niue",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 153,
+        "country_code": "NF",
+        "country_name": "Norfolk Island",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 154,
+        "country_code": "MP",
+        "country_name": "Northern Mariana Islands",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 155,
+        "country_code": "NO",
+        "country_name": "Norway",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 156,
+        "country_code": "OM",
+        "country_name": "Oman",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 157,
+        "country_code": "PK",
+        "country_name": "Pakistan",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 158,
+        "country_code": "PW",
+        "country_name": "Palau",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 159,
+        "country_code": "PA",
+        "country_name": "Panama",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 160,
+        "country_code": "PG",
+        "country_name": "Papua New Guinea",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 161,
+        "country_code": "PY",
+        "country_name": "Paraguay",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 162,
+        "country_code": "PE",
+        "country_name": "Peru",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 163,
+        "country_code": "PH",
+        "country_name": "Philippines",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 164,
+        "country_code": "PN",
+        "country_name": "Pitcairn",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 165,
+        "country_code": "PL",
+        "country_name": "Poland",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 166,
+        "country_code": "PT",
+        "country_name": "Portugal",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 167,
+        "country_code": "PR",
+        "country_name": "Puerto Rico",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 168,
+        "country_code": "QA",
+        "country_name": "Qatar",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 169,
+        "country_code": "RO",
+        "country_name": "Romania",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 170,
+        "country_code": "RU",
+        "country_name": "Russian Federation",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 171,
+        "country_code": "RW",
+        "country_name": "Rwanda",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 172,
+        "country_code": "KN",
+        "country_name": "Saint Kitts and Nevis",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 173,
+        "country_code": "LC",
+        "country_name": "Saint Lucia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 174,
+        "country_code": "MF",
+        "country_name": "Saint Martin (French part)",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 175,
+        "country_code": "PM",
+        "country_name": "Saint Pierre and Miquelon",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 176,
+        "country_code": "VC",
+        "country_name": "Saint Vincent and the Grenadines",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 177,
+        "country_code": "WS",
+        "country_name": "Samoa",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 178,
+        "country_code": "SM",
+        "country_name": "San Marino",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 179,
+        "country_code": "ST",
+        "country_name": "Sao Tome and Principe",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 180,
+        "country_code": "SA",
+        "country_name": "Saudi Arabia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 181,
+        "country_code": "SN",
+        "country_name": "Senegal",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 182,
+        "country_code": "RS",
+        "country_name": "Serbia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 183,
+        "country_code": "SC",
+        "country_name": "Seychelles",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 184,
+        "country_code": "SL",
+        "country_name": "Sierra Leone",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 185,
+        "country_code": "SG",
+        "country_name": "Singapore",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 186,
+        "country_code": "SX",
+        "country_name": "Sint Maarten (Dutch part)",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 187,
+        "country_code": "SK",
+        "country_name": "Slovakia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 188,
+        "country_code": "SI",
+        "country_name": "Slovenia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 189,
+        "country_code": "SB",
+        "country_name": "Solomon Islands",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 190,
+        "country_code": "SO",
+        "country_name": "Somalia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 191,
+        "country_code": "ZA",
+        "country_name": "South Africa",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 192,
+        "country_code": "GS",
+        "country_name": "South Georgia and the South Sandwich Islands",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 193,
+        "country_code": "SS",
+        "country_name": "South Sudan",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 194,
+        "country_code": "ES",
+        "country_name": "Spain",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 195,
+        "country_code": "LK",
+        "country_name": "Sri Lanka",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 196,
+        "country_code": "SD",
+        "country_name": "Sudan",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 197,
+        "country_code": "SR",
+        "country_name": "Suricountry_name",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 198,
+        "country_code": "SJ",
+        "country_name": "Svalbard and Jan Mayen",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 199,
+        "country_code": "SZ",
+        "country_name": "Swaziland",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 200,
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 201,
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 202,
+        "country_code": "SY",
+        "country_name": "Syrian Arab Republic",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 203,
+        "country_code": "TJ",
+        "country_name": "Tajikistan",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 204,
+        "country_code": "TH",
+        "country_name": "Thailand",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 205,
+        "country_code": "TL",
+        "country_name": "Timor-Leste",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 206,
+        "country_code": "TG",
+        "country_name": "Togo",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 207,
+        "country_code": "TK",
+        "country_name": "Tokelau",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 208,
+        "country_code": "TO",
+        "country_name": "Tonga",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 209,
+        "country_code": "TT",
+        "country_name": "Trinidad and Tobago",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 210,
+        "country_code": "TN",
+        "country_name": "Tunisia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 211,
+        "country_code": "TR",
+        "country_name": "Turkey",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 212,
+        "country_code": "TM",
+        "country_name": "Turkmenistan",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 213,
+        "country_code": "TC",
+        "country_name": "Turks and Caicos Islands",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 214,
+        "country_code": "TV",
+        "country_name": "Tuvalu",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 215,
+        "country_code": "UG",
+        "country_name": "Uganda",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 216,
+        "country_code": "UA",
+        "country_name": "Ukraine",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 217,
+        "country_code": "AE",
+        "country_name": "United Arab Emirates",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 218,
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 219,
+        "country_code": "US",
+        "country_name": "United States",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 220,
+        "country_code": "UM",
+        "country_name": "United States Minor Outlying Islands",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 221,
+        "country_code": "UY",
+        "country_name": "Uruguay",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 222,
+        "country_code": "UZ",
+        "country_name": "Uzbekistan",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 223,
+        "country_code": "VU",
+        "country_name": "Vanuatu",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 224,
+        "country_code": "VN",
+        "country_name": "Viet Nam",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 225,
+        "country_code": "WF",
+        "country_name": "Wallis and Futuna",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 226,
+        "country_code": "EH",
+        "country_name": "Western Sahara",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 227,
+        "country_code": "YE",
+        "country_name": "Yemen",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 228,
+        "country_code": "ZM",
+        "country_name": "Zambia",
+        "isActive": 1,
+        "cost": 0
+      },
+      {
+        "id": 229,
+        "country_code": "ZW",
+        "country_name": "Zimbabwe",
+        "isActive": 1,
+        "cost": 0
+      }
+    ]
+  },
+  "prefectures": {
+    "prefectures": [
+      {
+        "id": 1,
+        "prefecture_name": "Αιτωλοακαρνανίας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 2,
+        "prefecture_name": "Λάρισας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 3,
+        "prefecture_name": "Ιωαννίνων",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 4,
+        "prefecture_name": "Φθιώτιδας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 5,
+        "prefecture_name": "Αρκαδίας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 6,
+        "prefecture_name": "Έβρου",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 7,
+        "prefecture_name": "Εύβοιας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 8,
+        "prefecture_name": "Σερρών",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 9,
+        "prefecture_name": "Αττικής",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 10,
+        "prefecture_name": "Θεσσαλονίκης",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 11,
+        "prefecture_name": "Λακωνίας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 12,
+        "prefecture_name": "Κοζάνης",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 13,
+        "prefecture_name": "Δράμας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 14,
+        "prefecture_name": "Τρικάλων",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 15,
+        "prefecture_name": "Αχαΐας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 16,
+        "prefecture_name": "Μεσσηνίας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 17,
+        "prefecture_name": "Βοιωτίας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 18,
+        "prefecture_name": "Χαλκιδικής",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 19,
+        "prefecture_name": "Δωδεκανήσου",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 20,
+        "prefecture_name": "Ηρακλείου",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 21,
+        "prefecture_name": "Καρδίτσας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 22,
+        "prefecture_name": "Μαγνησίας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 23,
+        "prefecture_name": "Ηλείας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 24,
+        "prefecture_name": "Κυκλάδων",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 25,
+        "prefecture_name": "Ροδόπης",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 26,
+        "prefecture_name": "Κιλκίς",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 27,
+        "prefecture_name": "Πέλλας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 28,
+        "prefecture_name": "Χανίων",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 29,
+        "prefecture_name": "Γρεβενών",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 30,
+        "prefecture_name": "Κορινθίας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 31,
+        "prefecture_name": "Αργολίδας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 32,
+        "prefecture_name": "Λέσβου",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 33,
+        "prefecture_name": "Φωκίδας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 34,
+        "prefecture_name": "Καβάλας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 35,
+        "prefecture_name": "Φλώρινας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 36,
+        "prefecture_name": "Ευρυτανίας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 37,
+        "prefecture_name": "Λασιθίου",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 38,
+        "prefecture_name": "Ξάνθης",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 39,
+        "prefecture_name": "Καστοριάς",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 40,
+        "prefecture_name": "Ημαθίας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 41,
+        "prefecture_name": "Άρτας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 42,
+        "prefecture_name": "Πιερίας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 43,
+        "prefecture_name": "Θεσπρωτίας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 44,
+        "prefecture_name": "Ρεθύμνου",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 45,
+        "prefecture_name": "Πρέβεζας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 46,
+        "prefecture_name": "Χίου",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 47,
+        "prefecture_name": "Κεφαλληνίας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 48,
+        "prefecture_name": "Σάμου",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 49,
+        "prefecture_name": "Κέρκυρας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 50,
+        "prefecture_name": "Ζακύνθου",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 51,
+        "prefecture_name": "Λευκάδας",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      },
+      {
+        "id": 52,
+        "prefecture_name": "Άγιο Όρος",
+        "country_id": 81,
+        "shipping_cost": 0,
+        "isActive": 1
+      }
+    ]
+  },
+  "paymentmethods": [
+    {
+      "id": 1,
+      "name": "ΑΝΤΙΚΑΤΑΒΟΛΗ",
+      "description": null,
+      "cost": 4
+    },
+    {
+      "id": 2,
+      "name": "ΠΛΗΡΩΜΗ ΣΤΟ ΚΑΤΑΣΤΗΜΑ",
+      "description": null,
+      "cost": 0
+    },
+    {
+      "id": 3,
+      "name": "ΚΑΤΑΘΕΣΗ ΣΕ ΤΡΑΠΕΖΑ",
+      "description": null,
+      "cost": 0
+    }
+  ],
+  "shippingmethods": [
+    {
+      "id": 1,
+      "name": "COURIER",
+      "description": null,
+      "cost": 4.3
+    },
+    {
+      "id": 2,
+      "name": "ΠΑΡΑΛΑΒΗ ΑΠΟ ΤΟ ΚΑΤΑΣΤΗΜΑ",
+      "description": null,
+      "cost": 0
+    }
+  ],
+  "login": {
+    "userLoggedIn": {
+      "username": "a"
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYSIsImlhdCI6MTY5OTM0ODgyOSwiZXhwIjoxNjk5MzUyNDI5fQ.h5kk8471ad1k-MN6vtAblcxMOZzRFUEXlYfnn3F8CIo"
+  },
+  "wishlist": {
+    "results": [
+      {
+        "productId": 1,
+        "productTitle": "Title 1",
+        "productDescription": "Descripption 1",
+        "productSubHeader": "Sub Header 1",
+        "stock": 99,
+        "imgHref": "adminbg.jpg",
+        "price": 20,
+        "initialPrice": 30,
+        "code": "1234re",
+        "related_products": "2,3",
+        "isActive": 1,
+        "productLargeDescription": "<p>vaios</p>",
+        "isNew": 1,
+        "id": 8,
+        "user_id": 1,
+        "product_id": 1
+      }
+    ]
+  },
+  "userorders": {
+    "orders": [
+      {
+        "id": 61,
+        "dateCreated": "2022-12-22T11:53:14.000Z",
+        "order_code": "A16717171946838276",
+        "paymentFirstName": "mastermind",
+        "paymentLastName": "fadsfas",
+        "paymentEmail": "vaios_a@outlook.com",
+        "totalItems": "1",
+        "totalOrderPrice": 20,
+        "paymentMethodCost": 4,
+        "shippingMethodCost": 4,
+        "statusId": 1
+      },
+      {
+        "id": 60,
+        "dateCreated": "2022-12-22T11:51:41.000Z",
+        "order_code": "A1671717101235287",
+        "paymentFirstName": "fasd",
+        "paymentLastName": "fads",
+        "paymentEmail": "vaios_a@outlook.com",
+        "totalItems": "1",
+        "totalOrderPrice": 20,
+        "paymentMethodCost": 0,
+        "shippingMethodCost": 0,
+        "statusId": 1
+      }
+    ],
+    "total": 20
+  },
+  "myorder": {
+    "order": {
+      "orderId": 60,
+      "order_code": "A1671717101235287",
+      "dateCreated": "2022-12-22T11:51:41.000Z",
+      "paymentMethodCost": 0,
+      "shippingMethodCost": 0,
+      "statusId": 1,
+      "statusName": "ΚΑΤΑΧΩΡΗΘΗΚΕ",
+      "piFirstName": "fasd",
+      "piLastName": "fads",
+      "piAddress": "fasdfasd 11",
+      "piPhone": "1234567890",
+      "piPostCode": 12345,
+      "siFirstName": "fasd",
+      "siLastName": "fads",
+      "siAddress": "fasdfasd 11",
+      "siPhone": "1234567890",
+      "siPostCode": 12345
+    },
+    "products": [
+      {
+        "productId": 1,
+        "productTitle": "Title 1",
+        "imgHref": "adminbg.jpg",
+        "code": "1234re",
+        "initialPrice": 30,
+        "price": 20,
+        "items": 1
+      }
+    ],
+    "pastStatuses": [
+      {
+        "id": 1,
+        "name": "ΚΑΤΑΧΩΡΗΘΗΚΕ",
+        "dateCreated": "2022-12-22T11:51:41.000Z"
+      }
+    ]
+  }
+}

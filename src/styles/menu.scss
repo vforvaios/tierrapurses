@@ -1,0 +1,158 @@
+.submenu-container {
+  display: none;
+  padding: 8px;
+  background: $white;
+  width: 100%;
+  margin-top: 8px;
+
+  > * {
+    color: $color-1;
+    margin-bottom: 12px;
+    font-size: 14px;
+    cursor: pointer;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &.open {
+    display: block;
+  }
+}
+
+.submenu-item {
+  cursor: pointer;
+  color: $white;
+  flex-direction: row;
+  text-align: right;
+  flex-basis: 50%;
+
+  &.rotate {
+    transform: rotate(180deg);
+    display: flex;
+  }
+}
+
+.menu-item-category {
+  flex-grow: 1;
+  flex-basis: 50%;
+}
+
+.menu-item {
+  color: $white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 6px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.MuiDrawer-paper {
+  background-color: $color-7 !important;
+
+  & .MuiSvgIcon-root {
+    color: $white;
+  }
+}
+
+.main-menu {
+  a {
+    color: $color-1;
+  }
+}
+
+.MuiDrawer-paperAnchorLeft {
+  right: auto !important;
+  padding: 20px;
+  background-color: $color-1 !important;
+  width: 100%;
+  max-width: 340px;
+}
+
+.main-menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+  svg {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+  }
+}
+.menu-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.main-menu-search-container {
+  > div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  & .MuiInputBase-root {
+    background: $white;
+  }
+
+  .MuiFormControl-root {
+    position: relative;
+
+    .minor-loading {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translate(0, -50%);
+      font-size: 8px;
+      margin-top: 6px;
+      z-index: 1;
+    }
+  }
+
+  .MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon.css-1qqsdnr-MuiAutocomplete-root
+    .MuiAutocomplete-inputRoot {
+    padding-right: 60px;
+  }
+
+  label {
+    color: $color-4 !important;
+    z-index: 1;
+    left: 4px !important;
+    top: 0 !important;
+  }
+
+  .MuiInput-underline:after {
+    border-color: $shadow;
+  }
+
+  svg {
+    color: $color-6 !important;
+  }
+}
+
+.MuiAutocomplete-root .MuiInput-root .MuiInput-input {
+  padding: 6px !important;
+}
+
+.menuIcon {
+  font-size: 26px;
+  color: $white;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    color: $color-1;
+  }
+}
+
+.closeMenu {
+  font-size: 26px;
+  color: $white;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}

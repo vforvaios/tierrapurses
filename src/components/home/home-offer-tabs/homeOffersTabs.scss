@@ -1,0 +1,12 @@
+.tabsContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.productContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}

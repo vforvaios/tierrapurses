@@ -1,0 +1,22 @@
+{
+  "/home": "/home",
+  "/staticcontent/keywords/:id": "/staticcontentkeywordshome",
+  "/staticcontent/active": "/staticcontentactive",
+  "/logo": "/logo",
+  "/menu": "/menu",
+  "/products/:id": "/products",
+  "/products/:id/related": "/productsrelated",
+  "/categories": "/categories",
+  "/subcategories": "/subcategories",
+  "/brands": "/brands",
+  "/prices": "/prices",
+  "/products?*": "/catalog",
+  "/countries": "/countries",
+  "/prefectures?*": "/prefectures",
+  "/paymentmethods": "/paymentmethods",
+  "/shippingmethods?*": "/shippingmethods",
+  "/login": "/login",
+  "/wishlist": "/wishlist",
+  "/userorders?*": "/userorders",
+  "/order/admin/order/:id": "/myorder"
+}

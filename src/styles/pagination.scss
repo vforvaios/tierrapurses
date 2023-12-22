@@ -1,0 +1,24 @@
+.pagination {
+  margin: 0 0 20px;
+
+  .MuiPagination-ul {
+    justify-content: center;
+  }
+
+  .MuiPaginationItem-root {
+    color: $color-6;
+  }
+
+  .MuiPaginationItem-page {
+    &.Mui-selected {
+      background-color: $color-1 !important;
+      color: $white !important;
+      &:hover {
+        background-color: $color-1 !important;
+      }
+    }
+    &:hover {
+      background-color: $shadow !important;
+    }
+  }
+}

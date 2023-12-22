@@ -1,0 +1,68 @@
+.headerContainer {
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background: $color-5;
+  & > div {
+    color: $white;
+  }
+
+  & .MuiInputBase-root .MuiSvgIcon-root {
+    fill: $white;
+  }
+
+  & .MuiInputAdornment-root {
+    background-color: $color-1;
+    height: 100%;
+    border-radius: 4px;
+    padding: 1px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  & .MuiInput-underline:before {
+    border-color: $white;
+  }
+
+  & .MuiInput-underline:after {
+    border-color: #fff;
+  }
+
+  label {
+    color: $white;
+  }
+
+  & .MuiFormLabel-root.Mui-focused {
+    color: $white;
+  }
+
+  & .MuiInput-underline:hover:not(.Mui-disabled):before {
+    border-color: $color-1;
+  }
+}
+
+.menuIcon {
+  fill: $white;
+  width: 40px !important;
+  height: 40px !important;
+  cursor: pointer;
+}
+
+.headerActions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logo-image {
+  max-width: 100%;
+  width: 120px;
+}
+
+.logo {
+  text-align: center;
+}

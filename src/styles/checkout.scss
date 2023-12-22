@@ -1,0 +1,103 @@
+.checkout-stepper-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    li {
+      padding: 10px 16px;
+      border-radius: 100px;
+      line-height: 30px;
+      text-align: center;
+      margin: 0 10px;
+
+      &.active {
+        background-color: $color-1;
+        color: $white;
+      }
+    }
+  }
+}
+
+.checkout-success {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.billing-inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  flex-direction: column;
+
+  & .MuiFormControl-root {
+    padding: 0 8px;
+    margin-bottom: 12px;
+  }
+
+  & .MuiInputLabel-formControl {
+    left: 0;
+  }
+}
+
+.flex-billing-shipping {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.same-as-billing {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0255, 255, 255, 0.7);
+    z-index: 2;
+  }
+}
+
+.guest-login-container {
+  text-align: center;
+  border: 1px solid $shadow;
+
+  .guest-title {
+    background: $shadow;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  .guest-content {
+    padding: 40px;
+
+    & > div {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.payment-shipping-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.success-message {
+  max-width: 600px;
+  text-align: center;
+  line-height: 2;
+  padding: 20px 0;
+}
