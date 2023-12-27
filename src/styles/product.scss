@@ -93,7 +93,7 @@
 
     &:hover {
       .MuiCardMedia-root > div {
-        transform: scale(1.4);
+        transform: scale(1.1);
       }
     }
   }
@@ -152,7 +152,7 @@
 
     & > span {
       margin-right: 10px;
-      font-size: 10px;
+      font-size: 12px;
       text-decoration: line-through;
       color: $color-2;
     }
@@ -200,6 +200,7 @@
   .product-title {
     .headerTitle {
       text-align: left;
+      font-weight: 700 !important;
       font-size: 30px !important;
       margin: 0;
       margin-bottom: 20px;
@@ -296,8 +297,8 @@
 }
 
 .headerTitle {
-  font-size: 22px !important;
-  font-weight: bold !important;
+  font-size: 18px !important;
+  font-weight: 300 !important;
   color: $black;
   text-align: center;
   margin-bottom: 12px;
@@ -319,14 +320,10 @@
   position: absolute;
   z-index: 1;
   padding: 6px;
-  transform: rotate(45deg);
-  transform-origin: center center;
-  width: 200px;
-  width: 200px;
-  right: -80px;
-  top: 5px;
+  right: 0;
+  top: 12px;
   text-align: center;
-  box-shadow: 0px 0px 6px 0px $black;
+  line-height: 1;
 }
 
 .subHeader {
