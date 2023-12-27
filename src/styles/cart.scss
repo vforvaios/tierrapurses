@@ -179,11 +179,15 @@
     text-align: center;
   }
 
-  .cart-description span {
-    font-size: 14px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
+  .cart-description {
+    align-items: center;
+
+    span {
+      font-size: 14px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
   }
 
   .cart-item-initial-price {
