@@ -51,6 +51,10 @@
   cursor: pointer;
 }
 
+.MuiDrawer-root {
+  z-index: 100000 !important;
+}
+
 .MuiDrawer-paper {
   background-color: $color-7 !important;
 
@@ -71,6 +75,7 @@
   background-color: $color-1 !important;
   width: 100%;
   max-width: 340px;
+  z-index: 1000000 !important;
 }
 
 .main-menu-header {
