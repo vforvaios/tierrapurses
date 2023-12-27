@@ -44,7 +44,7 @@ const HomeOffersTabs = ({ handleChange, value, offers }) => {
           onChange={handleChange}
           aria-label="disabled tabs example">
           {offers?.map((offer) => (
-            <Tab key={offer.id} label={offer.title} />
+            <Tab className="white" key={offer.id} label={offer.title} />
           ))}
         </Tabs>
       </div>

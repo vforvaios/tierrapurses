@@ -43,7 +43,7 @@ const Home = () => {
         )}
         {offers?.length > 0 && (
           <div className="row">
-            <div className="wrapper">
+            <div className="wrapper offers-bg">
               <HomeOffersTabs offers={offers} />
             </div>
           </div>

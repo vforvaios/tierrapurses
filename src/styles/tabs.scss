@@ -1,5 +1,13 @@
+.MuiTab-textColorPrimary {
+  color: $white !important;
+}
+
 .MuiTab-textColorPrimary.Mui-selected {
   color: $color-1 !important;
+
+  &.white {
+    color: $white !important;
+  }
 }
 
 .PrivateTabIndicator-colorPrimary-3 {
