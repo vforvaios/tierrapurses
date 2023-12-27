@@ -32,7 +32,6 @@ const MiniCartDrawer = ({ setToggleValue }) => {
       <div className="mini-cart-actions">
         <div
           onClick={() => {
-            navigate('./catalog');
             myCloseMenuBtn.current.dispatchEvent(
               new MouseEvent('click', {
                 view: window,
