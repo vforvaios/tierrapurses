@@ -42,8 +42,8 @@ const Home = () => {
           </div>
         )}
         {offers?.length > 0 && (
-          <div className="row">
-            <div className="wrapper offers-bg">
+          <div className="row offers-bg">
+            <div className="wrapper">
               <HomeOffersTabs offers={offers} />
             </div>
           </div>
