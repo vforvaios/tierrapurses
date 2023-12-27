@@ -53,6 +53,7 @@
   fill: $white;
   width: 40px !important;
   height: 40px !important;
+  line-height: 40px;
   cursor: pointer;
 }
 
@@ -69,4 +70,11 @@
 
 .logo {
   text-align: center;
+}
+
+.menu-icon-align {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
 }

@@ -45,10 +45,10 @@ const Header = ({ cookies, toggleValue, setToggleValue }) => {
   return (
     <Grid container className="headerContainer">
       <Grid item sm={3}>
-        <i
-          onClick={setToggleValue('left', true)}
-          className="menuIcon icon-menu"
-        />
+        <div className="menu-icon-align" onClick={setToggleValue('left', true)}>
+          <i className="menuIcon icon-menu" />
+          <span>Menu</span>
+        </div>
         <Drawer
           anchor="left"
           open={toggleValue?.left}
