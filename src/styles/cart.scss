@@ -13,6 +13,9 @@
   position: relative;
   margin-left: 20px;
   line-height: 0;
+  background: transparent;
+  border: 0 none;
+  cursor: pointer;
 
   span {
     position: absolute;
@@ -116,7 +119,7 @@
 }
 
 .cart-totals-row-title {
-  background: $purple;
+  background: $color-3;
   margin-bottom: 0;
   color: $black;
   font-size: 16px;
@@ -137,4 +140,76 @@
 .cart-item-image {
   max-width: 100px;
   max-height: 100px;
+}
+
+.mini-cart-drawer-wrapper {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  .cart-item-image {
+    max-width: 30px;
+  }
+}
+
+.mini-cart-drawer-flex {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 12px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  > div:first-child {
+    width: 140px;
+  }
+
+  > div:nth-child(2) {
+    max-width: 40px;
+    text-align: center;
+  }
+
+  .cart-item-initial-price,
+  .totalPrice {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .cart-description span {
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .cart-item-initial-price {
+    font-size: 10px;
+  }
+
+  .totalPrice {
+    font-size: 14px;
+  }
+
+  .mini-cart-prices {
+    flex-grow: 1;
+  }
+}
+
+.mini-cart-drawer-items {
+  flex-grow: 1;
+}
+
+.mini-cart-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+
+  * {
+    cursor: pointer;
+  }
 }
