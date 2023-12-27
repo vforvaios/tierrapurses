@@ -2,7 +2,6 @@ import MiniCartItem from 'components/cartItem/MiniCartItem';
 import { cart } from 'models/selectors/cartSelectors';
 import React, { useRef } from 'react';
 import { useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
 const MiniCartDrawer = ({ setToggleValue }) => {
