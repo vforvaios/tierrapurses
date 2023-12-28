@@ -4,7 +4,7 @@ import React, { useRef } from 'react';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
-const MiniCartDrawer = ({ setToggleValue }) => {
+const MiniCartDrawer = ({ itemsLength, setToggleValue }) => {
   const myCart = useSelector(cart);
   const navigate = useNavigate();
   const myCloseMenuBtn = useRef(null);
@@ -20,13 +20,15 @@ const MiniCartDrawer = ({ setToggleValue }) => {
         />
       </div>
       <div className="mini-cart-drawer-items">
-        {myCart?.map((item, index) => (
-          <MiniCartItem
-            setToggleValue={setToggleValue}
-            key={`${item?.productId}_${index}`}
-            item={item}
-          />
-        ))}
+        {itemsLength > 0
+          ? myCart?.map((item, index) => (
+              <MiniCartItem
+                setToggleValue={setToggleValue}
+                key={`${item?.productId}_${index}`}
+                item={item}
+              />
+            ))
+          : 'Το καλάθι σας είναι άδειο.'}
       </div>
       <div className="mini-cart-actions">
         <div
@@ -42,21 +44,23 @@ const MiniCartDrawer = ({ setToggleValue }) => {
           }}>
           ΚΛΕΙΣΙΜΟ
         </div>
-        <div
-          className="button navigation next"
-          onClick={() => {
-            navigate('./cart');
-            myCloseMenuBtn.current.dispatchEvent(
-              new MouseEvent('click', {
-                view: window,
-                bubbles: true,
-                cancelable: true,
-                buttons: 1,
-              }),
-            );
-          }}>
-          ΤΑΜΕΙΟ
-        </div>
+        {itemsLength > 0 && (
+          <div
+            className="button navigation next"
+            onClick={() => {
+              navigate('./cart');
+              myCloseMenuBtn.current.dispatchEvent(
+                new MouseEvent('click', {
+                  view: window,
+                  bubbles: true,
+                  cancelable: true,
+                  buttons: 1,
+                }),
+              );
+            }}>
+            ΤΑΜΕΙΟ
+          </div>
+        )}
       </div>
     </div>
   );

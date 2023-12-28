@@ -30,11 +30,10 @@ const MiniCart = ({ toggleValue, setToggleValue }) => {
         anchor="right"
         open={toggleValue?.right}
         onClose={setToggleValue('right', false)}>
-        {itemsLength > 0 ? (
-          <MiniCartDrawer setToggleValue={setToggleValue} />
-        ) : (
-          'Δεν υπάρχουν προϊόντα στο καλάθι.'
-        )}
+        <MiniCartDrawer
+          itemsLength={itemsLength}
+          setToggleValue={setToggleValue}
+        />
       </Drawer>
     </>
   );

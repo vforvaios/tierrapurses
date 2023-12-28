@@ -27,3 +27,7 @@
     background-color: $warning;
   }
 }
+
+.MuiSnackbar-root {
+  z-index: 100000 !important;
+}
